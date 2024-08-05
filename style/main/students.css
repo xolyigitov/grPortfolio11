@@ -23,14 +23,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
 }
-<<<<<<< HEAD
+
 .location_map{
     display: flex;
     gap: 20px;
 }
-=======
 
->>>>>>> 15b957cb39f2148885f7b2e097de7d3e94b43e36
 .main-students__first{
     display: flex;
     flex-wrap: wrap;
