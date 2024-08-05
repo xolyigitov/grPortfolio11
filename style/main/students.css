@@ -17,67 +17,83 @@
     font-size: 26px;
     font-family: var(--IB);
 }
+
 .main-students{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
 }
+
 .main-students__first{
     display: flex;
     flex-wrap: wrap;
-    width:calc(100% /4) ;
-    height: 65vh;
+    height: 550px;
+    max-width: 350px;
+    width: 100%;
     position: relative;
     transition: all 500ms;
-  }
+}
 
 .main-students__first img{ 
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 25px;
     opacity: 1;
     display: block;
+    transition: all 500ms;
 }
-.main-students__first.active img{
-    opacity: 0.7;
+
+
+.main-students__first:hover img{
+    /* opacity: 0.5; */
+    z-index: -2;
 }
+
+.main-student__gradient{
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -1;
+}
+
 .main-students__first h3{
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 30px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family: var(--IB);
     opacity: 0;
-    transition: 400ms;
+    transition: all 500ms;
 }
-.main-students__first.active h3{
+.main-students__first:hover h3{
     opacity: 1;
 }
-.main-students__first.active{
-    width: 40%;
-}
+
 .main-students__first p{
     position: absolute;
     left: 20px;
-    bottom: 120px;
+    bottom: 100px;
     width:70%;
     color: white;
     font-size: 18px;
     font-family: var(--IR);
     opacity: 0;
-    transition: 400ms;
+    transition: all 500ms;
 }
-.main-students__first.active p{
+.main-students__first:hover p{
     opacity: 1;
 }
+
 .main-students__btn{
     position: absolute;
     opacity: 0;
     transition: 400ms;
     left: 20px;
-    bottom:60px;
+    bottom: 40px;
     padding: 10px 20px;
     background:var(--Yellow);
     border-radius: 10px;
@@ -85,14 +101,13 @@
     color: var(--Black);
     font-family: var(--IR);
 }
+
 .main-students__btn:hover{
     color:var(--Yellow);
     transition: all 0,4s;
     background-color:black;
 }
-.main-students__first.active a{
+
+.main-students__first:hover a{
     opacity: 1;
-}
-.main-students__first.active{
-    width: 40%;
 }
