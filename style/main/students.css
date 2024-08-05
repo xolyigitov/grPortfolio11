@@ -29,7 +29,7 @@
     height: 65vh;
     position: relative;
     transition: all 500ms;
-}
+  }
 
 .main-students__first img{ 
     width: 80%;

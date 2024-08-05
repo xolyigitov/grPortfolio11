@@ -62,7 +62,7 @@ body {
 .header-top__title {
     color: rgb(255, 255, 255);
     font-family: var(--IB);
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0%;
@@ -71,7 +71,7 @@ body {
 .header-top__title-second {
     color: rgb(255, 255, 255);
     font-family: var(--IR);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0%;
