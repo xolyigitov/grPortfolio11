@@ -1,0 +1,67 @@
+@import url(../style/fonst.css);
+
+/* root-start */
+:root {
+    --IB: Insert-Bold;
+    --IR: Insert-Regular;
+    --White: #FFFFFF;
+    --White2: #E0E0E0;
+    --Black: #131313;
+    --Black2: #333333;
+    --Yellow: #FCD500;
+}
+.main-skills__title{
+    margin-top: 20px;
+    color: white;
+    font-size: 26px;
+    font-family: var(--IB);
+}
+.main-skills__items{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.main-skill__container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main-skills__name{
+    color: white;
+    font-size: 16px;
+    font-family: var(--IB);
+}
+.main-skills__line{
+    margin: 20px 0;
+    max-width: 350px;
+    width: 100%;
+    height: 10px;
+    background:gray;
+    border-radius: 50px;
+}
+.main-skills__line-second{
+    width: 100%;
+    height: 10px;
+    background-color: var(--Yellow);
+    border-radius: 50px;
+}
+.main-skills__line-second1{
+    width: 100%;
+    height: 10px;
+    background-color: var(--Yellow);
+    border-radius: 50px;
+}
+.main-skills__line-second2{
+    width: 50%;
+    height: 10px;
+    background-color: var(--Yellow);
+    border-radius: 50px;
+}
+.main-skills__line-second3{
+    width: 90%;
+    height: 10px;
+    background-color: var(--Yellow);
+    border-radius: 50px;
+}

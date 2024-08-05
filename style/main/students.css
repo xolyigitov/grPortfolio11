@@ -1,0 +1,98 @@
+@import url(../style/fonst.css);
+
+/* root-start */
+:root {
+    --IB: Insert-Bold;
+    --IR: Insert-Regular;
+    --White: #FFFFFF;
+    --White2: #E0E0E0;
+    --Black: #131313;
+    --Black2: #333333;
+    --Yellow: #FCD500;
+}
+/* main start */
+.main-title{
+    padding-bottom: 30px;
+    color: white;
+    font-size: 26px;
+    font-family: var(--IB);
+}
+.main-students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-students__first{
+    display: flex;
+    flex-wrap: wrap;
+    width:calc(100% /4) ;
+    height: 65vh;
+    position: relative;
+    transition: all 500ms;
+}
+
+.main-students__first img{ 
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 25px;
+    opacity: 1;
+    display: block;
+}
+.main-students__first.active img{
+    opacity: 0.7;
+}
+.main-students__first h3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: var(--IB);
+    opacity: 0;
+    transition: 400ms;
+}
+.main-students__first.active h3{
+    opacity: 1;
+}
+.main-students__first.active{
+    width: 40%;
+}
+.main-students__first p{
+    position: absolute;
+    left: 20px;
+    bottom: 120px;
+    width:70%;
+    color: white;
+    font-size: 18px;
+    font-family: var(--IR);
+    opacity: 0;
+    transition: 400ms;
+}
+.main-students__first.active p{
+    opacity: 1;
+}
+.main-students__btn{
+    position: absolute;
+    opacity: 0;
+    transition: 400ms;
+    left: 20px;
+    bottom:60px;
+    padding: 10px 20px;
+    background:var(--Yellow);
+    border-radius: 10px;
+    font-size: 14px;
+    color: var(--Black);
+    font-family: var(--IR);
+}
+.main-students__btn:hover{
+    color:var(--Yellow);
+    transition: all 0,4s;
+    background-color:black;
+}
+.main-students__first.active a{
+    opacity: 1;
+}
+.main-students__first.active{
+    width: 40%;
+}
