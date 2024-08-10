@@ -11,6 +11,14 @@
     --Yellow: #FCD500;
 }
 
+.main-skills__content{
+    display: flex;
+}
+
+.main-skills__list{
+    width: 50%;
+}
+
 .main-skills{
     margin-top: 100px;
 }
@@ -25,13 +33,14 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
 }
+
 .main-skill__container{
     display: flex;
     gap: 20px;
     align-items: center;
 }
+
 .main-skills__name{
     color: white;
     font-size: 16px;
@@ -76,3 +85,35 @@
 
 
 
+.main-skills__boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 50%;
+}
+
+.main-skills__box{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: white 0 0 30px 5px;
+    transition: all 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-skills__box:hover{
+    background-color: var(--Yellow);
+    box-shadow: var(--Yellow) 0 0 30px 5px;
+}
+
+.main-skills__box-icon{
+    font-size: 100px;
+    transition: all 500ms;
+}
+
+.main-skills__box:hover .main-skills__box-icon{
+    color: white;
+}
