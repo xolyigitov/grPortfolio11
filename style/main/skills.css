@@ -100,10 +100,15 @@
     box-shadow: white 0 0 30px 5px;
     transition: all 500ms;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
-
+.main-skills__box-title{
+    font-family: var(--IB);
+    transition: all 400ms;
+}
 .main-skills__box:hover{
     background-color: var(--Yellow);
     box-shadow: var(--Yellow) 0 0 30px 5px;
@@ -111,9 +116,12 @@
 
 .main-skills__box-icon{
     font-size: 100px;
-    transition: all 500ms;
+    transition: all 400ms;
 }
 
 .main-skills__box:hover .main-skills__box-icon{
+    color: white;
+}
+.main-skills__box:hover .main-skills__box-title{
     color: white;
 }
