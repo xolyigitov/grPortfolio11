@@ -130,6 +130,9 @@ body {
  .header-content__icon{
     /* opacity: 0.5; */
     padding-top: 30px;
+    font-size: 72px;
+    color: var(--White);
+    transition: all 500ms;
 } 
 
 .header-content__adress {
