@@ -10,6 +10,10 @@
     --Black2: #333333;
     --Yellow: #FCD500;
 }
+
+.main-skills{
+    margin-top: 100px;
+}
 .main-skills__title{
     margin-top: 20px;
     color: white;
@@ -65,3 +69,10 @@
     background-color: var(--Yellow);
     border-radius: 50px;
 }
+
+
+
+/* -----------------------------  B O X  ------------------------------------ */
+
+
+
