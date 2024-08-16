@@ -10,7 +10,9 @@
     --Black2: #333333;
     --Yellow: #FCD500;
 }
-
+.main-skills{
+    margin-bottom: 50px;
+}
 .main-skills__content{
     display: flex;
 }
