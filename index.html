@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/main/latest-project.css">
     <link rel="stylesheet" href="./style/main/skills.css">
     <link rel="stylesheet" href="./style/main/students.css">
+    <link rel="stylesheet" href="./style/main/contact.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -53,7 +54,7 @@
         <section class="main-students">
             <div class="main-students__first">
                 <div class="main-student__gradient"></div>
-                <img src="images/sardorbek.png" alt="png">
+                <img src="images/personal-foto4.png" alt="png">
                 <h3 class=" main-students__fullName">Sardorbek Kholyigitov</h3>
                 <p class="main-students__bio">Sardorbek Kholyigitov Ikhtiyorovich.Age 16, Full-Stack developer,
                     level Middle.</p>
@@ -258,8 +259,36 @@
                
             </div>
         </section>
+        <section class="contact">
+            <div class="form-container">
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <div class="input-group">
+                        <span class="icon">👤</span>
+                        <input type="text" id="name" name="name" placeholder="e.g John Doe">
+                    </div>
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <span class="icon">📧</span>
+                        <input type="email" id="email" name="email" placeholder="e.g johndoe@mail.com">
+                    </div>
+                    <label for="phone">Phone</label>
+                    <div class="input-group">
+                        <span class="icon">📞</span>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                    </div>
+                    <label for="message">Message</label>
+                    <div class="input-group">
+                        <span class="icon">💬</span>
+                        <textarea id="message" name="message" placeholder="Write message..."></textarea>
+                    </div>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </section>
     </main>
     <script src="main.js"></script>
+    <script src="js/contact.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./audio.js"></script>
     <script>
